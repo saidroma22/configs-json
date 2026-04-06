@@ -10,10 +10,10 @@
     "ad_interval": 6,
     "interstitial_webview_enabled": true,
     "AdMob": {
-      "banner": "ca-app-pub-9418489845990423/5303972570",
-      "interstitial": "ca-app-pub-9418489845990423/1731559074",
-      "native": "ca-app-pub-9418489845990423/1348415695",
-      "appopen": "ca-app-pub-9418489845990423/1795972409"
+      "banner": "ca-app-pub-9418489845990423/5468221541",
+      "interstitial": "ca-app-pub-9418489845990423/4793434128",
+      "native": "ca-app-pub-9418489845990423/4777160240",
+      "appopen": "ca-app-pub-9418489845990423/8176762479"
     },
     "StartApp": {
       "app_id": "YOUR_STARTAPP_APP_ID"
