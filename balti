@@ -10,7 +10,7 @@
     "ad_interval": 6,
     "interstitial_webview_enabled": true,
     "AdMob": {
-      "banner": "ca-app-pub-9418489845990423/4236983974",
+   "banner": "ca-app-pub-9418489845990423/4236983974",
       "interstitial": "ca-app-pub-9418489845990423/2732330616",
       "native": "ca-app-pub-9418489845990423/1175706365",
       "appopen": "ca-app-pub-9418489845990423/8914595584"
@@ -28,7 +28,7 @@
       "name": "player",
       "type": "url",
       "icon": "https://cdn-icons-png.flaticon.com/512/3502/3502627.png",
-      "url": "https://saidapp1.blogspot.com/p/player2.html"
+      "https://saidapp1.blogspot.com/p/player_6.html"
     }
   ],
   "radio_stations": [
