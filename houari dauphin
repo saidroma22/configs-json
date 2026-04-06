@@ -1,0 +1,172 @@
+{
+  "Ads": {
+    "ad_status": "1",
+    "_comment": "admob , startapp",
+    "ad_banner": "admob",
+    "ad_inter": "admob",
+    "ad_native": "admob",
+    "openapp": "admob",
+    "back_up": "none",
+    "ad_interval": 6,
+    "interstitial_webview_enabled": true,
+    "AdMob": {
+     "banner": "ca-app-pub-9418489845990423/9378249220",
+      "interstitial": "ca-app-pub-9418489845990423/2643689604",
+      "native": "ca-app-pub-9418489845990423/5911429890",
+      "appopen" : "ca-app-pub-9418489845990423/6638188200"
+    },
+    "StartApp": {
+      "app_id": "YOUR_STARTAPP_APP_ID"
+    }
+  },
+  "app": {
+    "status": "1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+  },
+  "menus": [
+    {
+      "name": "player",
+      "type": "url",
+      "icon": "https://cdn-icons-png.flaticon.com/512/3502/3502627.png",
+      "url": "https://saidapp1.blogspot.com/p/player2.html"
+    }
+  ],
+  "radio_stations": [
+    {
+      "name": "راديو البهجة",
+      "country": "الجزائر",
+      "genre": "شعبي",
+      "stream_url": "https://radioelbahdja.ice.infomaniak.ch/elbahdja.mp3",
+      "icon": "",
+      "color": "#FF9800"
+    },
+    {
+      "name": "Chaine 1",
+      "country": "الجزائر",
+      "genre": "عربي",
+      "stream_url": "https://radiochaine1.ice.infomaniak.ch/chaine1.mp3",
+      "icon": "",
+      "color": "#1DB954"
+    },
+    {
+      "name": "Chaine 2",
+      "country": "الجزائر",
+      "genre": "أمازيغية",
+      "stream_url": "https://radiochaine2.ice.infomaniak.ch/chaine2.mp3",
+      "icon": "",
+      "color": "#009688"
+    },
+    {
+      "name": "Chaine 3",
+      "country": "الجزائر",
+      "genre": "أخبار",
+      "stream_url": "https://radiochaine3.ice.infomaniak.ch/chaine3.mp3",
+      "icon": "",
+      "color": "#2196F3"
+    },
+    {
+      "name": "راديو القرآن الكريم",
+      "country": "الجزائر",
+      "genre": "ديني",
+      "stream_url": "https://radiocoran.ice.infomaniak.ch/coran.mp3",
+      "icon": "",
+      "color": "#4CAF50"
+    },
+    {
+      "name": "JIL FM",
+      "country": "الجزائر",
+      "genre": "موسيقى",
+      "stream_url": "https://radiojeunesse.ice.infomaniak.ch/jeunesse.mp3",
+      "icon": "",
+      "color": "#6C3FC5"
+    },
+    {
+      "name": "Radio Adrar",
+      "country": "الجزائر",
+      "genre": "محلي",
+      "stream_url": "https://radioadrar.ice.infomaniak.ch/adrar.mp3",
+      "icon": "",
+      "color": "#795548"
+    },
+    {
+      "name": "Radio Tizi Ouzou",
+      "country": "الجزائر",
+      "genre": "أمازيغية",
+      "stream_url": "https://radiotiziouzou.ice.infomaniak.ch/tiziouzou.mp3",
+      "icon": "",
+      "color": "#00BCD4"
+    },
+    {
+      "name": "Radio Culture",
+      "country": "الجزائر",
+      "genre": "ثقافة",
+      "stream_url": "https://radioculture.ice.infomaniak.ch/culture.mp3",
+      "icon": "",
+      "color": "#607D8B"
+    },
+    {
+      "name": "Radio Medina FM",
+      "country": "الجزائر",
+      "genre": "ديني",
+      "stream_url": "https://medinafm.ice.infomaniak.ch/medinafm-64.mp3",
+      "icon": "",
+      "color": "#8BC34A"
+    },
+    {
+      "name": "Beur FM",
+      "country": "الجزائر",
+      "genre": "متنوع",
+      "stream_url": "https://beurfm.ice.infomaniak.ch/beurfm-high.mp3",
+      "icon": "",
+      "color": "#E91E63"
+    },
+    {
+      "name": "Radio Only Raï",
+      "country": "الجزائر",
+      "genre": "راي",
+      "stream_url": "https://onlyrai.ice.infomaniak.ch/onlyrai-high.mp3",
+      "icon": "",
+      "color": "#FF5722"
+    },
+    {
+      "name": "Gn Radio Algeria",
+      "country": "الجزائر",
+      "genre": "متنوع",
+      "stream_url": "https://a11.asurahosting.com:7360/algeria.mp3",
+      "icon": "",
+      "color": "#9C27B0"
+    },
+    {
+      "name": "Hit Radio FM 99.8",
+      "country": "المغرب",
+      "genre": "موسيقى",
+      "stream_url": "https://hitradio-maroc.ice.infomaniak.ch/hitradio-maroc-128.mp3",
+      "icon": "",
+      "color": "#F44336"
+    },
+    {
+      "name": "MFM Radio",
+      "country": "المغرب",
+      "genre": "موسيقى",
+      "stream_url": "https://a5.asurahosting.com:7980/radio.mp3",
+      "icon": "",
+      "color": "#3F51B5"
+    },
+    {
+      "name": "Monte Carlo Doualiya",
+      "country": "دولي",
+      "genre": "أخبار",
+      "stream_url": "https://montecarlodoualiya128k.ice.infomaniak.ch/mc-doualiya.mp3",
+      "icon": "",
+      "color": "#FF9800"
+    },
+    {
+      "name": "Radio France Maghreb 2",
+      "country": "دولي",
+      "genre": "متنوع",
+      "stream_url": "https://francemaghreb2.ice.infomaniak.ch/francemaghreb2-high.mp3",
+      "icon": "",
+      "color": "#673AB7"
+    }
+  ]
+}
