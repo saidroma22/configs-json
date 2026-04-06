@@ -1,7 +1,6 @@
 {
   "Ads": {
     "ad_status": "1",
-
     "_comment": "admob , startapp",
     "ad_banner": "admob",
     "ad_inter": "admob",
@@ -9,26 +8,21 @@
     "openapp": "admob",
     "back_up": "none",
     "ad_interval": 6,
-
     "interstitial_webview_enabled": true,
-
     "AdMob": {
-      "banner": "ca-app-pub-9418489845990423/5468221541",
-      "interstitial": "ca-app-pub-9418489845990423/4793434128",
-      "native": "ca-app-pub-9418489845990423/4777160240",
-      "appopen": "ca-app-pub-9418489845990423/8176762479"
+      "banner": "ca-app-pub-9418489845990423/5303972570",
+      "interstitial": "ca-app-pub-9418489845990423/1731559074",
+      "native": "ca-app-pub-9418489845990423/1348415695",
+      "appopen": "ca-app-pub-9418489845990423/1795972409"
     },
-
     "StartApp": {
       "app_id": "YOUR_STARTAPP_APP_ID"
     }
   },
-
   "app": {
     "status": "1",
     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
   },
-
   "menus": [
     {
       "name": "player",
@@ -36,7 +30,7 @@
       "icon": "https://cdn-icons-png.flaticon.com/512/3502/3502627.png",
       "url": "https://saidapp1.blogspot.com/p/player_6.html"
     }
- ],
+  ],
   "radio_stations": [
     {
       "name": "راديو البهجة",
@@ -176,4 +170,3 @@
     }
   ]
 }
-
