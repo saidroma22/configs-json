@@ -1,7 +1,7 @@
 {
   "Ads": {
     "ad_status": "1",
-    "_comment": "admob , startio",
+    "_comment": "admob",
     "ad_banner": "admob",
     "ad_inter": "admob",
     "ad_native": "admob",
@@ -14,9 +14,6 @@
       "interstitial": "ca-app-pub-9418489845990423/1731559074",
       "native": "ca-app-pub-9418489845990423/1348415695",
       "appopen": "ca-app-pub-9418489845990423/1795972409"
-    },
-    "StartIo": {
-      "app_id": "YOUR_STARTIO_APP_ID"
     }
   },
   "app": {
