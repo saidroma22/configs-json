@@ -1,348 +1,169 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>مشغل الموسيقى أونلاين</title>
-  <style>
-    :root {
-      --primary-color: #00B4DB;
-      --accent-color: #0083B0;
-      --card-bg: rgba(18, 40, 77, 0.45);
-      --glass-border: rgba(255, 255, 255, 0.08);
-      --text-main: #FFFFFF;
-      --text-muted: #8E9FBC;
+{
+  "Ads": {
+    "ad_status": "1",
+    "_comment": "admob",
+    "ad_banner": "admob",
+    "ad_inter": "admob",
+    "ad_native": "admob",
+    "openapp": "admob",
+    "back_up": "none",
+    "ad_interval": 6,
+    "interstitial_webview_enabled": true,
+    "AdMob": {
+      "banner": "ca-app-pub-9418489845990423/5472282129",
+      "interstitial": "ca-app-pub-9418489845990423/1780449123",
+      "native": "ca-app-pub-9418489845990423/3405504525",
+      "appopen": "ca-app-pub-9418489845990423/3387981205"
     }
-    * { box-sizing: border-box; scrollbar-width: none; }
-    *::-webkit-scrollbar { display: none; }
-
-    /* WebView Area */
-    html, body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      overflow: hidden;
+  },
+  "app": {
+    "status": "1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+  },
+  "menus": [
+    {
+      "name": "player",
+      "type": "url",
+      "icon": "https://cdn-icons-png.flaticon.com/512/3502/3502627.png",
+      "url": "https://saidapp1.blogspot.com/p/player2_0266227067.html"
     }
-    body {
-      padding: 24px 12px 24px 12px; /* مسافة أمان علوية وسفلية */
-      font-family: system-ui, -apple-system, sans-serif;
-      background: linear-gradient(135deg, #0A1630 0%, #030914 100%);
-      color: var(--text-main);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+  ],
+  "radio_stations": [
+    {
+      "name": "راديو البهجة",
+      "country": "الجزائر",
+      "genre": "شعبي",
+      "stream_url": "https://radioelbahdja.ice.infomaniak.ch/elbahdja.mp3",
+      "icon": "",
+      "color": "#FF9800"
+    },
+    {
+      "name": "Chaine 1",
+      "country": "الجزائر",
+      "genre": "عربي",
+      "stream_url": "https://radiochaine1.ice.infomaniak.ch/chaine1.mp3",
+      "icon": "",
+      "color": "#1DB954"
+    },
+    {
+      "name": "Chaine 2",
+      "country": "الجزائر",
+      "genre": "أمازيغية",
+      "stream_url": "https://radiochaine2.ice.infomaniak.ch/chaine2.mp3",
+      "icon": "",
+      "color": "#009688"
+    },
+    {
+      "name": "Chaine 3",
+      "country": "الجزائر",
+      "genre": "أخبار",
+      "stream_url": "https://radiochaine3.ice.infomaniak.ch/chaine3.mp3",
+      "icon": "",
+      "color": "#2196F3"
+    },
+    {
+      "name": "راديو القرآن الكريم",
+      "country": "الجزائر",
+      "genre": "ديني",
+      "stream_url": "https://radiocoran.ice.infomaniak.ch/coran.mp3",
+      "icon": "",
+      "color": "#4CAF50"
+    },
+    {
+      "name": "JIL FM",
+      "country": "الجزائر",
+      "genre": "موسيقى",
+      "stream_url": "https://radiojeunesse.ice.infomaniak.ch/jeunesse.mp3",
+      "icon": "",
+      "color": "#6C3FC5"
+    },
+    {
+      "name": "Radio Adrar",
+      "country": "الجزائر",
+      "genre": "محلي",
+      "stream_url": "https://radioadrar.ice.infomaniak.ch/adrar.mp3",
+      "icon": "",
+      "color": "#795548"
+    },
+    {
+      "name": "Radio Tizi Ouzou",
+      "country": "الجزائر",
+      "genre": "أمازيغية",
+      "stream_url": "https://radiotiziouzou.ice.infomaniak.ch/tiziouzou.mp3",
+      "icon": "",
+      "color": "#00BCD4"
+    },
+    {
+      "name": "Radio Culture",
+      "country": "الجزائر",
+      "genre": "ثقافة",
+      "stream_url": "https://radioculture.ice.infomaniak.ch/culture.mp3",
+      "icon": "",
+      "color": "#607D8B"
+    },
+    {
+      "name": "Radio Medina FM",
+      "country": "الجزائر",
+      "genre": "ديني",
+      "stream_url": "https://medinafm.ice.infomaniak.ch/medinafm-64.mp3",
+      "icon": "",
+      "color": "#8BC34A"
+    },
+    {
+      "name": "Beur FM",
+      "country": "الجزائر",
+      "genre": "متنوع",
+      "stream_url": "https://beurfm.ice.infomaniak.ch/beurfm-high.mp3",
+      "icon": "",
+      "color": "#E91E63"
+    },
+    {
+      "name": "Radio Only Raï",
+      "country": "الجزائر",
+      "genre": "راي",
+      "stream_url": "https://onlyrai.ice.infomaniak.ch/onlyrai-high.mp3",
+      "icon": "",
+      "color": "#FF5722"
+    },
+    {
+      "name": "Gn Radio Algeria",
+      "country": "الجزائر",
+      "genre": "متنوع",
+      "stream_url": "https://a11.asurahosting.com:7360/algeria.mp3",
+      "icon": "",
+      "color": "#9C27B0"
+    },
+    {
+      "name": "Hit Radio FM 99.8",
+      "country": "المغرب",
+      "genre": "موسيقى",
+      "stream_url": "https://hitradio-maroc.ice.infomaniak.ch/hitradio-maroc-128.mp3",
+      "icon": "",
+      "color": "#F44336"
+    },
+    {
+      "name": "MFM Radio",
+      "country": "المغرب",
+      "genre": "موسيقى",
+      "stream_url": "https://a5.asurahosting.com:7980/radio.mp3",
+      "icon": "",
+      "color": "#3F51B5"
+    },
+    {
+      "name": "Monte Carlo Doualiya",
+      "country": "دولي",
+      "genre": "أخبار",
+      "stream_url": "https://montecarlodoualiya128k.ice.infomaniak.ch/mc-doualiya.mp3",
+      "icon": "",
+      "color": "#FF9800"
+    },
+    {
+      "name": "Radio France Maghreb 2",
+      "country": "دولي",
+      "genre": "متنوع",
+      "stream_url": "https://francemaghreb2.ice.infomaniak.ch/francemaghreb2-high.mp3",
+      "icon": "",
+      "color": "#673AB7"
     }
-
-    /* Player Card */
-    .player-card {
-      width: 100%;
-      max-width: 480px;
-      flex: 1; 
-      min-height: 0; /* ✅ التعديل السحري: يجبر البطاقة على التوقف عند حدود الشاشة وعدم تجاوزها */
-      background: var(--card-bg);
-      backdrop-filter: blur(20px);
-      -webkit-backdrop-filter: blur(20px);
-      border: 1px solid var(--glass-border);
-      border-bottom: 3px solid var(--primary-color);
-      border-radius: 20px;
-      padding: 10px;
-      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-      overflow: hidden;
-      position: relative; /* ضروري لزر الرجوع */
-    }
-
-    /* زر الرجوع المدمج */
-    .btn-back {
-      position: absolute;
-      top: 14px;
-      right: 14px;
-      background: rgba(255, 255, 255, 0.08);
-      border: 1px solid var(--glass-border);
-      color: var(--text-main);
-      width: 36px;
-      height: 36px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;
-      transition: background 0.2s, transform 0.2s;
-      z-index: 10;
-    }
-    .btn-back:hover, .btn-back:active {
-      background: rgba(255, 255, 255, 0.2);
-      transform: scale(0.95);
-    }
-    .btn-back svg {
-      width: 20px;
-      height: 20px;
-      fill: currentColor;
-    }
-
-    .player-header {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      gap: 6px;
-      flex-shrink: 0;
-      margin-top: 10px; /* مسافة لزر الرجوع */
-    }
-    .cover-wrapper { width: 90px; height: 90px; flex-shrink: 0; }
-    .cover-img {
-      width: 100%;
-      height: 100%;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 3px solid var(--glass-border);
-      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
-    }
-    .cover-img.playing { animation: rotateCover 20s linear infinite; }
-    @keyframes rotateCover { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
-
-    .track-info { width: 100%; }
-    .track-title {
-      font-size: 15px;
-      font-weight: bold;
-      margin: 0 0 2px 0;
-      color: var(--text-main);
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-    .track-artist { font-size: 12px; color: var(--text-muted); margin: 0; }
-
-    .player-controls { flex-shrink: 0; }
-
-    .controls-row {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 24px;
-      margin-top: 0;
-    }
-    .btn-control {
-      background: none;
-      border: none;
-      color: var(--text-main);
-      cursor: pointer;
-      padding: 6px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: background-color 0.2s, transform 0.1s;
-    }
-    .btn-control:active { transform: scale(0.92); }
-    .btn-control svg { width: 22px; height: 22px; fill: currentColor; }
-    .btn-play-pause {
-      width: 48px;
-      height: 48px;
-      background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
-      box-shadow: 0 4px 16px rgba(0, 180, 219, 0.4);
-    }
-    .btn-play-pause svg { width: 24px; height: 24px; }
-
-    .progress-container { width: 100%; display: flex; flex-direction: column; gap: 4px; }
-    .progress-bar-wrapper {
-      width: 100%;
-      height: 5px;
-      background: rgba(255, 255, 255, 0.1);
-      border-radius: 3px;
-      cursor: pointer;
-    }
-    .progress-filled {
-      height: 100%;
-      background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
-      border-radius: 3px;
-      width: 0%;
-      position: relative;
-    }
-    .progress-filled::after {
-      content: "";
-      position: absolute;
-      right: -4px;
-      top: -3px;
-      width: 11px;
-      height: 11px;
-      background: #FFFFFF;
-      border-radius: 50%;
-      box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
-    }
-    .time-indicators { display: flex; justify-content: space-between; font-size: 10px; color: var(--text-muted); }
-
-    .playlist-section {
-      border-top: 1px solid var(--glass-border);
-      padding-top: 8px;
-      flex: 1;
-      overflow-y: auto;
-      min-height: 0;
-    }
-
-    .playlist-title { font-size: 12px; font-weight: bold; color: var(--text-muted); margin: 0 0 6px 0; }
-    .playlist-item {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      padding: 8px;
-      border-radius: 10px;
-      cursor: pointer;
-      transition: background-color 0.2s;
-      margin-bottom: 4px;
-    }
-    .playlist-item:hover, .playlist-item.active { background: rgba(255, 255, 255, 0.06); }
-    .playlist-item.active .item-title { color: var(--primary-color); }
-    .item-img { width: 38px; height: 38px; border-radius: 8px; object-fit: cover; }
-    .item-details { flex: 1; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
-    .item-title { font-size: 13px; font-weight: bold; margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .item-artist { font-size: 11px; color: var(--text-muted); margin: 0; }
-    .item-duration { font-size: 11px; color: var(--text-muted); }
-  </style>
-</head>
-<body>
-  <div class="player-card">
-    
-    <!-- زر الرجوع -->
-    <button class="btn-back" onclick="window.location.href='app://close'" title="رجوع">
-      <!-- أيقونة سهم يمين (لأن الواجهة عربية RTL) -->
-      <svg viewBox="0 0 24 24"><path d="M4 11h12.17l-5.59-5.59L12 4l8 8-8 8-1.41-1.41L16.17 13H4v-2z"/></svg>
-    </button>
-
-    <div class="player-header">
-      <div class="cover-wrapper">
-        <img id="track-cover" class="cover-img" src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/music-icon-mohammed-jabir-ap.jpg" alt="غلاف الأغنية">
-      </div>
-      <div class="track-info">
-        <h2 id="current-title" class="track-title">اختر أغنية للتشغيل</h2>
-        <p id="current-artist" class="track-artist">—</p>
-      </div>
-    </div>
-    <div class="player-controls">
-      <div class="progress-container">
-        <div id="progress-wrapper" class="progress-bar-wrapper">
-          <div id="progress-filled" class="progress-filled"></div>
-        </div>
-        <div class="time-indicators">
-          <span id="time-current">0:00</span>
-          <span id="time-total">0:00</span>
-        </div>
-      </div>
-      <div class="controls-row">
-        <button id="btn-prev" class="btn-control" title="السابق">
-          <svg viewBox="0 0 24 24"><path d="M6 6h2v12H6zm3.5 6L18 18V6z"/></svg>
-        </button>
-        <button id="btn-play" class="btn-control btn-play-pause" title="تشغيل">
-          <svg id="play-icon" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-          <svg id="pause-icon" viewBox="0 0 24 24" style="display:none;"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
-        </button>
-        <button id="btn-next" class="btn-control" title="التالي">
-          <svg viewBox="0 0 24 24"><path d="M6 18l8.5-6L6 6zm9-12v12h2V6z"/></svg>
-        </button>
-      </div>
-    </div>
-    <div class="playlist-section">
-      <h3 class="playlist-title">قائمة الأغاني المتاحة</h3>
-      <div id="playlist-container"></div>
-    </div>
-  </div>
-  <audio id="main-audio"></audio>
-  <script>
-    const audioLinks = [
-      { name: 'عندك تنعس', artist: 'DjamelSghir', url: 'https://cdn.jsdelivr.net/gh/saidroma22/app-Azzadine@main/audio/DjamelSghir.mp3', imgSrc: 'https://cdn.jsdelivr.net/gh/saidroma22/app-Azzadine@main/icon/icon/djamelsghir.png' },
-      { name: 'عشقتها وعشقتني', artist: 'ALiMadjadji', url: 'https://cdn.jsdelivr.net/gh/saidroma22/app-Azzadine@main/audio/Madjadji.mp3', imgSrc: 'https://cdn.jsdelivr.net/gh/saidroma22/app-Azzadine@main/icon/icon/Madjadji.png' },
-      { name: 'جيبي دواء الكريمة', artist: 'chayeb', url: 'https://cdn.jsdelivr.net/gh/saidroma22/app-Azzadine@main/audio/chayeb.mp3', imgSrc: 'https://cdn.jsdelivr.net/gh/saidroma22/app-Azzadine@main/icon/icon/chayeb.png' },
-      { name: 'يا دوري دڨ دڨ', artist: 'Cheb Aissa', url: 'https://cdn.jsdelivr.net/gh/saidroma22/app-Azzadine@main/audio/ChebAissa.mp3', imgSrc: 'https://cdn.jsdelivr.net/gh/saidroma22/app-Azzadine@main/icon/icon/ChebAissa.png' },
-      { name: 'الى لقيته جيبه ورواح', artist: 'Zakaria Mounji', url: 'https://cdn.jsdelivr.net/gh/saidroma22/app-Azzadine@main/audio/ZakariaMounji.mp3', imgSrc: 'https://cdn.jsdelivr.net/gh/saidroma22/app-Azzadine@main/icon/icon/ZakariaMounji.png' },
-      { name: 'طفلة مالك', artist: 'cherif oueldsaber', url: 'https://cdn.jsdelivr.net/gh/saidroma22/app-Azzadine@main/audio/cherifoueldsaber.mp3', imgSrc: 'https://cdn.jsdelivr.net/gh/saidroma22/app-Azzadine@main/icon/icon/cherifoueldsaber.png' },
-      { name: 'يكفيني', artist: 'Khaled Lartiste', url: 'https://cdn.jsdelivr.net/gh/saidroma22/app-Azzadine@main/audio/KhaledLartiste.mp3', imgSrc: 'https://cdn.jsdelivr.net/gh/saidroma22/app-Azzadine@main/icon/icon/KhaledLartiste.png' },
-      { name: 'زهري وين و انا وين', artist: 'Amoune talens', url: 'https://cdn.jsdelivr.net/gh/saidroma22/app-Azzadine@main/audio/Amounetalens.mp3', imgSrc: 'https://cdn.jsdelivr.net/gh/saidroma22/app-Azzadine@main/icon/icon/Amounetalens.png' }
-    ];
-
-    const audio = document.getElementById("main-audio");
-    const playBtn = document.getElementById("btn-play");
-    const playIcon = document.getElementById("play-icon");
-    const pauseIcon = document.getElementById("pause-icon");
-    const prevBtn = document.getElementById("btn-prev");
-    const nextBtn = document.getElementById("btn-next");
-    const trackCover = document.getElementById("track-cover");
-    const currentTitle = document.getElementById("current-title");
-    const currentArtist = document.getElementById("current-artist");
-    const progressWrapper = document.getElementById("progress-wrapper");
-    const progressFilled = document.getElementById("progress-filled");
-    const timeCurrent = document.getElementById("time-current");
-    const timeTotal = document.getElementById("time-total");
-    const playlistContainer = document.getElementById("playlist-container");
-    let currentTrackIndex = 0, isPlaying = false;
-
-    function initPlaylist() {
-      playlistContainer.innerHTML = "";
-      audioLinks.forEach((track, index) => {
-        const item = document.createElement("div");
-        item.className = `playlist-item ${index === currentTrackIndex ? 'active' : ''}`;
-        item.innerHTML = `
-          <img class="item-img" src="${track.imgSrc}" alt="غلاف">
-          <div class="item-details">
-            <p class="item-title">${track.name}</p>
-            <p class="item-artist">${track.artist}</p>
-          </div>
-          <span class="item-duration" id="duration-${index}">—</span>
-        `;
-        const tmp = new Audio(track.url);
-        tmp.addEventListener("loadedmetadata", () => {
-          const el = document.getElementById(`duration-${index}`);
-          if (el) el.textContent = formatTime(tmp.duration);
-        });
-        item.addEventListener("click", () => selectTrack(index));
-        playlistContainer.appendChild(item);
-      });
-    }
-
-    function loadTrack(index) {
-      currentTrackIndex = index;
-      const t = audioLinks[index];
-      audio.src = t.url;
-      trackCover.src = t.imgSrc;
-      currentTitle.textContent = t.name;
-      currentArtist.textContent = t.artist;
-      document.querySelectorAll(".playlist-item").forEach((el, i) => el.classList.toggle("active", i === index));
-    }
-
-    function togglePlay() {
-      if (audio.paused) { audio.play().then(() => { isPlaying = true; updatePlayUI(); }); }
-      else { audio.pause(); isPlaying = false; updatePlayUI(); }
-    }
-    function selectTrack(i) { loadTrack(i); audio.play().then(() => { isPlaying = true; updatePlayUI(); }); }
-    function updatePlayUI() {
-      playIcon.style.display = isPlaying ? "none" : "block";
-      pauseIcon.style.display = isPlaying ? "block" : "none";
-      trackCover.classList.toggle("playing", isPlaying);
-    }
-    function playNext() { selectTrack((currentTrackIndex + 1) % audioLinks.length); }
-    function playPrev() { selectTrack((currentTrackIndex - 1 + audioLinks.length) % audioLinks.length); }
-
-    audio.addEventListener("timeupdate", () => {
-      if (isNaN(audio.duration)) return;
-      progressFilled.style.width = `${(audio.currentTime / audio.duration) * 100}%`;
-      timeCurrent.textContent = formatTime(audio.currentTime);
-      timeTotal.textContent = formatTime(audio.duration);
-    });
-    audio.addEventListener("ended", playNext);
-    progressWrapper.addEventListener("click", (e) => {
-      if (audio.duration) audio.currentTime = (e.offsetX / progressWrapper.offsetWidth) * audio.duration;
-    });
-    function formatTime(s) {
-      if (isNaN(s)) return "0:00";
-      return `${Math.floor(s/60)}:${String(Math.floor(s%60)).padStart(2,'0')}`;
-    }
-
-    playBtn.addEventListener("click", togglePlay);
-    nextBtn.addEventListener("click", playNext);
-    prevBtn.addEventListener("click", playPrev);
-    initPlaylist();
-    loadTrack(0);
-  </script>
-</body>
-</html>
+  ]
+}
